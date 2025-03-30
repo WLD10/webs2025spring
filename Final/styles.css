@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bookshelf {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+.shelf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 200px;
+}
+
+.shelf > li {
+    margin: 50px;
+}
