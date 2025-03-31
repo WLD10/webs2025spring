@@ -6,19 +6,53 @@
 
 .bookshelf {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    background-color: #3D2412;
     border: 1px solid red;
-    justify-content: space-between;
 }
 
 .shelf {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-end;
 
-    width: 50%;
+    width: 95%;
     height: 200px;
+    margin-top: 20px;
+    background-color: #895129;
+    border: 1px solid red;
 }
 
-.shelf > li {
-    margin: 50px;
+.shelf li {
+    padding: 5px 190px 5px 10px;
+    margin-left: 20px;
+    list-style: none;
+
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background-color: white;
+}
+
+.shelf > p {
+    justify-content: center;
+}
+
+.shelf:last-of-type {
+    margin-bottom: 20px;
+}
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+    font-style: italic; 
+}
+
+@media only screen and (min-width: 401px) {
+    .shelf {
+        width: 47.5%;
+    }
 }
