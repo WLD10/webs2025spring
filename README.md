@@ -7,3 +7,8 @@ At first, I was trying to thik of something that could help showcase the amount 
 ### User Experience
 
 I have arranged the shelves to follow all of my semesters at Pitt, with some of them being available to dig deeper. By clicking on an available class, it will open up into what that class had taught me and my work achieved. I believe this will be a way for users to see my development, and see how everything ties together.
+
+### Sources
+
+Books - Undraw
+Bookshelves - Undraw
