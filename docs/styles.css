@@ -7,17 +7,32 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     width: 100%;
     padding: 1em;
     background: #DEAF84;
 }
 
-.header p {
-    font-size: 30px;
-    display: flex;
-    font-family: cursive;
+.nav {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav > li {
+    list-style: none;
+    display: inline;
+}
+
+.nav li:first-of-type {
+    margin-right: 5em;
+}
+
+.nav p {
+    font-size: 2em;
+    display: flex;
+    margin-bottom: 1em;
 }
 
 .logo {
@@ -52,9 +67,6 @@
     margin-left: 20px;
     list-style: none;
 
-    border-top: .2em solid gray;
-    border-left: .2em solid gray;
-    border-bottom: .2em solid gray;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     background-color: white;
@@ -64,11 +76,40 @@
     margin-bottom: 2em;
 }
 
+.senior li {
+    border-top: .2em solid lightblue;
+    border-left: .2em solid lightblue;
+    border-bottom: .2em solid lightblue;
+}
+
+.junior li {
+    border-top: .2em solid lightgreen;
+    border-left: .2em solid lightgreen;
+    border-bottom: .2em solid lightgreen;
+}
+
+.soph li {
+    border-top: .2em solid lightgray;
+    border-left: .2em solid lightgray;
+    border-bottom: .2em solid lightgray;
+}
+
+.fresh li {
+    border-top: .2em solid lightpink;
+    border-left: .2em solid lightpink;
+    border-bottom: .2em solid lightpink;
+}
+
 .label {
     display:flex;
     align-items: center;
 
-    color: white;
+    color: black;
+    background-color: silver;
+    border-radius: .5em;
+    padding: .2em;
+    position: relative;
+    top: 1.75em;
 }
 
 a:link,
